@@ -3,7 +3,7 @@ import LoginForm from './LoginForm.jsx';
 
 const App = () => {
     return (
-        <div>
+        <div className='main-wrapper'>
             <LoginForm />
         </div>
     );
