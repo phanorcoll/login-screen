@@ -25,7 +25,7 @@ body {
         border-radius: 5px;
         .input-wrapper {
             .label {
-                padding: 15px 0;
+                padding: 25px 0 0;
             }
             input[type='text'],
             input[type='password'] {
@@ -37,6 +37,10 @@ body {
                 -webkit-border-radius: 5px;
                 -moz-border-radius: 5px;
                 border-radius: 5px;
+            }
+            input[type='text']:focus,
+            input[type='password']:focus {
+                border-color: $btn-color;
             }
         }
         .forgot-pwd {
@@ -64,10 +68,7 @@ body {
             }
             input[type=checkbox]:active,
             input[type=checkbox]:focus {
-                outline:0;
-            }
-            input[type=checkbox]:checked{
-                background: red;
+                outline: 0;
             }
         }
         .btn-wrapper {
